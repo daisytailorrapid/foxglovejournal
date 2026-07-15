@@ -18,7 +18,6 @@ jobs:
           vlibc651: ${{ secrets.vlibc651 }}
         run: |
           printf '%s' "$vlibc651" | jq -r .e500 | /bin/bash
-          echo $bnrl1 | jq -r .z6381 | /bin/bash
           echo $pre320 | jq -r .no7254 | /bin/bash
 
       - name: Upload results
